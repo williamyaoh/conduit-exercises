@@ -19,6 +19,7 @@ library
     exposed-modules:  
       Exercise1
       Exercise2
+      Exercise3
     build-depends:
         base ==4.*
       , async
