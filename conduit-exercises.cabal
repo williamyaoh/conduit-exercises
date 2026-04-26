@@ -21,6 +21,7 @@ library
       Exercise2
       Exercise3
       Exercise4
+      Exercise5
     build-depends:
         base ==4.*
       , async
@@ -32,6 +33,7 @@ library
       , network
       , random
       , resourcet
+      , rot13
       , text
       , transformers
     hs-source-dirs:   src/lib
