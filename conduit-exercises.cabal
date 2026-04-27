@@ -38,3 +38,12 @@ library
       , transformers
     hs-source-dirs:   src/lib
     default-language: Haskell2010
+
+executable exercise2
+    import: options
+    main-is: exercise2.hs
+    hs-source-dirs: src/bin
+    build-depends:
+        base ==4.*
+      , conduit-exercises
+    default-language: Haskell2010

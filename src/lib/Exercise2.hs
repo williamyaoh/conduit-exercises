@@ -19,3 +19,6 @@ import System.IO
 -- characters written.
 --
 -- Feel free to use any utilities in the `conduit` package for this exercise.
+
+main :: IO ()
+main = pure ()
